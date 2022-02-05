@@ -4,7 +4,7 @@
 
 该功能只能由站点管理员使用。
 
-例如在 `domian.union` 表中插入下列信息即可让 `domainId` 为 A 的域在计算 RP 时参考 `domainId` 为 B 和 C 的域中的成员表现：
+例如在 `domain.union` 表中插入下列信息即可让 `domainId` 为 A 的域在计算 RP 时参考 `domainId` 为 B 和 C 的域中的成员表现：
 
 ```json
 { "_id" : "A", "union" : [ "B", "C" ] }
